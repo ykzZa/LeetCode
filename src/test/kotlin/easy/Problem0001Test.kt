@@ -4,6 +4,7 @@ import org.testng.annotations.Test
 import kotlin.test.assertContentEquals
 
 class Problem0001Test {
+
     @Test
     fun testExampleOne() {
         val problem = Problem0001()
