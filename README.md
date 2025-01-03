@@ -20,3 +20,7 @@ fun isPalindrome(x: Int): Boolean {
     return x == half || x == half / 10  
 }
 ```
+
+**Problem #0013**
+
+The method converts a Roman numeral to an integer by iterating the string in reverse and applying addition or subtraction based on the values of the symbols.
