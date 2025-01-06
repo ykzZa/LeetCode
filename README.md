@@ -76,3 +76,9 @@ A better solution was found online that optimizes memory by avoiding the creatio
 
 *Best result: 0ms (beats 100%), 38.18MB (beats 5.37%)*  
 *Best of found online solution: 0ms (beats 100%), 36.47MB (beats 59.47%)*
+
+**Problem #2469**
+
+The algorithm converts a given temperature in Celsius to both Kelvin and Fahrenheit by applying the respective formulas and returns the results in a DoubleArray.
+
+*Best result: 0ms (beats 100%), 35.13MB (beats 64.29%)*  
