@@ -77,6 +77,12 @@ A better solution was found online that optimizes memory by avoiding the creatio
 *Best result: 0ms (beats 100%), 38.18MB (beats 5.37%)*  
 *Best of found online solution: 0ms (beats 100%), 36.47MB (beats 59.47%)*
 
+**Problem #1108**
+
+Using a loop, iterate through the string. If a period (.) is encountered, append "[.]" to the result string. For any other character, append it as is.
+
+*Best result: 122ms (beats 98.18%), 34.50MB (beats 72.73%)*
+
 **Problem #2469**
 
 The algorithm converts a given temperature in Celsius to both Kelvin and Fahrenheit by applying the respective formulas and returns the results in a DoubleArray.
