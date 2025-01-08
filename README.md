@@ -77,6 +77,12 @@ A better solution was found online that optimizes memory by avoiding the creatio
 *Best result: 0ms (beats 100%), 38.18MB (beats 5.37%)*  
 *Best of found online solution: 0ms (beats 100%), 36.47MB (beats 59.47%)*
 
+**Problem #0026**
+
+The algorithm iterates through the array, comparing each element with the previous one. If a unique element is found, it is placed at the next available position in the array, and the count of unique elements is incremented.
+
+*Best result: 1ms (beats 100%), 41.17MB (beats 85.31%)*
+
 **Problem #1108**
 
 Using a loop, iterate through the string. If a period (.) is encountered, append "[.]" to the result string. For any other character, append it as is.
