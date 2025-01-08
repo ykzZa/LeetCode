@@ -83,6 +83,13 @@ The algorithm iterates through the array, comparing each element with the previo
 
 *Best result: 1ms (beats 100%), 41.17MB (beats 85.31%)*
 
+**Problem #0027**
+
+The algorithm iterates through the array, counting elements not equal to the target value (val). These elements are moved to the front of the array while maintaining their relative order, and the counter tracks their count.
+
+*Best result: 0ms (beats 100%), 41.17MB (beats 62.04%)*
+
+
 **Problem #1108**
 
 Using a loop, iterate through the string. If a period (.) is encountered, append "[.]" to the result string. For any other character, append it as is.
