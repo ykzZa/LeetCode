@@ -89,6 +89,12 @@ The algorithm iterates through the array, counting elements not equal to the tar
 
 *Best result: 0ms (beats 100%), 41.17MB (beats 62.04%)*
 
+**Problem #0704**
+
+This is a binary search algorithm that finds the index of a target value in a sorted integer array. It repeatedly divides the search range in half, adjusting the left or right pointer based on the comparison of the target with the middle element, until the target is found or the range is empty.
+
+*Best result: 0ms (beats 100%), 39.89MB (beats 61.87%)*
+
 
 **Problem #1108**
 
