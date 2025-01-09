@@ -114,6 +114,12 @@ Using a loop, iterate through the string. If a period (.) is encountered, append
 
 *Best result: 122ms (beats 98.18%), 34.50MB (beats 72.73%)*
 
+**Problem #2185**
+
+The algorithm iterates through the list of words and checks if each word starts with the given prefix. If it does, the counter is incremented, and the total count of matching prefixes is returned.
+
+*Best result: 1ms (beats 100%), 34.50MB (beats 96.30%)*
+
 **Problem #2469**
 
 The algorithm converts a given temperature in Celsius to both Kelvin and Fahrenheit by applying the respective formulas and returns the results in a DoubleArray.
