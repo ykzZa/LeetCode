@@ -89,6 +89,12 @@ The algorithm iterates through the array, counting elements not equal to the tar
 
 *Best result: 0ms (beats 100%), 41.17MB (beats 62.04%)*
 
+**Problem #0028**
+
+The algorithm searches for the first occurrence of the string needle in the string haystack by sequentially comparing the characters of substrings with needle. If a full match is found, it returns the starting index of the match; otherwise, it returns -1.
+
+*Best result: 1ms (beats 93.88%), 34.51MB (beats 83.79%)*
+
 **Problem #0704**
 
 This is a binary search algorithm that finds the index of a target value in a sorted integer array. It repeatedly divides the search range in half, adjusting the left or right pointer based on the comparison of the target with the middle element, until the target is found or the range is empty.
