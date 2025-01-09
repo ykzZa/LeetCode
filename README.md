@@ -118,7 +118,7 @@ Using a loop, iterate through the string. If a period (.) is encountered, append
 
 The algorithm iterates through the list of words and checks if each word starts with the given prefix. If it does, the counter is incremented, and the total count of matching prefixes is returned.
 
-*Best result: 1ms (beats 100%), 34.50MB (beats 96.30%)*
+*Best result: 1ms (beats 100%), 37.49MB (beats 96.30%)*
 
 **Problem #2469**
 
