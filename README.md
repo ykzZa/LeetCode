@@ -95,6 +95,12 @@ The algorithm searches for the first occurrence of the string needle in the stri
 
 *Best result: 1ms (beats 93.88%), 34.51MB (beats 83.79%)*
 
+**Problem #0035**
+
+The algorithm performs a binary search to find the target's index in a sorted array or determine where it would be inserted to maintain order, adjusting the search range until the target is found or the range is empty. It returns the index of the target if found, or the position where it can be inserted.
+
+*Best result: 0ms (beats 100%), 37.68MB (beats 84.71%)*
+
 **Problem #0704**
 
 This is a binary search algorithm that finds the index of a target value in a sorted integer array. It repeatedly divides the search range in half, adjusting the left or right pointer based on the comparison of the target with the middle element, until the target is found or the range is empty.
