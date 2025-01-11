@@ -101,6 +101,12 @@ The algorithm performs a binary search to find the target's index in a sorted ar
 
 *Best result: 0ms (beats 100%), 37.68MB (beats 84.71%)*
 
+**Problem #0066**
+
+The algorithm increments the given array of digits representing a number by one, handling carry-over by iterating from the least significant digit to the most significant, and creates a new array if all digits are 9.
+
+*Best result: 0ms (beats 100%), 35.38MB (beats 87.65%)*
+
 **Problem #0704**
 
 This is a binary search algorithm that finds the index of a target value in a sorted integer array. It repeatedly divides the search range in half, adjusting the left or right pointer based on the comparison of the target with the middle element, until the target is found or the range is empty.
@@ -125,3 +131,9 @@ The algorithm iterates through the list of words and checks if each word starts 
 The algorithm converts a given temperature in Celsius to both Kelvin and Fahrenheit by applying the respective formulas and returns the results in a DoubleArray.
 
 *Best result: 0ms (beats 100%), 35.13MB (beats 64.29%)*  
+
+**Problem #3110**
+
+The solution calculates the score of a string by iterating through its characters, computing the absolute difference between the ASCII values of adjacent characters, and summing these differences. The result is returned as the total score.
+
+*Best result: 1ms (beats 100%), 35.33MB (beats 76.79%)*
