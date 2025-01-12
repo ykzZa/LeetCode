@@ -132,6 +132,12 @@ The algorithm converts a given temperature in Celsius to both Kelvin and Fahrenh
 
 *Best result: 0ms (beats 100%), 35.13MB (beats 64.29%)*  
 
+**Problem #0367**
+
+The algorithm uses a binary search to determine if the given number is a perfect square by iteratively checking the square of the middle value in the current range and adjusting the search boundaries based on whether the square is less than or greater than the target number. This approach ensures efficient checking without using built-in functions like sqrt.
+
+*Best result: 0ms (beats 100%), 33.73MB (beats 80.00%)*
+
 **Problem #3110**
 
 The solution calculates the score of a string by iterating through its characters, computing the absolute difference between the ASCII values of adjacent characters, and summing these differences. The result is returned as the total score.
