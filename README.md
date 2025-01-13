@@ -107,6 +107,12 @@ The algorithm increments the given array of digits representing a number by one,
 
 *Best result: 0ms (beats 100%), 35.38MB (beats 87.65%)*
 
+**Problem #0069**
+
+The algorithm uses binary search to find the square root of a given non-negative integer x by iterating through possible values of mid, comparing the square of mid with x to adjust the search range. The loop continues until the square root is found or the range is narrowed down to the largest integer whose square is less than or equal to x.
+
+*Best result: 1ms (beats 99.52%), 34.34MB (beats 76.74%)*
+
 **Problem #0704**
 
 This is a binary search algorithm that finds the index of a target value in a sorted integer array. It repeatedly divides the search range in half, adjusting the left or right pointer based on the comparison of the target with the middle element, until the target is found or the range is empty.
