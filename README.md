@@ -101,6 +101,12 @@ The algorithm performs a binary search to find the target's index in a sorted ar
 
 *Best result: 0ms (beats 100%), 37.68MB (beats 84.71%)*
 
+**Problem #0058**
+
+The algorithm scans the string from end to start to find the length of the last word. It skips trailing spaces, then counts characters until the next space is encountered. It returns the number of characters in the last word or zero if no word is found.
+
+*Best result: 0ms (beats 100%), 35.55MB (beats 97.32%)*
+
 **Problem #0066**
 
 The algorithm increments the given array of digits representing a number by one, handling carry-over by iterating from the least significant digit to the most significant, and creates a new array if all digits are 9.
