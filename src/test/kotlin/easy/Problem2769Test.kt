@@ -5,7 +5,6 @@ import kotlin.test.assertEquals
 
 class Problem2769Test {
 
-
     @Test
     fun testExampleOne() {
         val problem = Problem2769()
