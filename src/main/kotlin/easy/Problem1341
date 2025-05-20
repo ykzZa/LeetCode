@@ -1,0 +1,32 @@
+(SELECT
+    name AS results
+FROM
+    Users u
+RIGHT JOIN
+    MovieRating mr
+ON
+    mr.user_id = u.user_id
+GROUP BY
+    name
+ORDER BY
+    COUNT(*) DESC
+    , name ASC
+LIMIT 1)
+
+UNION ALL
+
+(SELECT
+    title AS results
+FROM
+    Movies m
+RIGHT JOIN
+    MovieRating mr
+ON
+    mr.movie_id = m.movie_id
+WHERE month(created_at) = 2 AND year(created_at) = 2020
+GROUP BY
+    title
+ORDER BY
+    AVG(rating) DESC
+    , title ASC
+LIMIT 1)
