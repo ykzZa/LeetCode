@@ -4,7 +4,11 @@ class Problem1431 {
 
     fun kidsWithCandies(candies: IntArray, extraCandies: Int): List<Boolean> {
         val res = mutableListOf<Boolean>()
-        val max = candies.max()
+
+        var max = candies[0]
+        for (num in candies) {
+            if (num > max) max = num
+        }
 
         for (c in candies) {
             if (c + extraCandies >= max) {
