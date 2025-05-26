@@ -1,11 +1,8 @@
 package easy
 
-class Problem0700 {
+import helper.TreeNode
 
-    class TreeNode(var `val`: Int) {
-        var left: TreeNode? = null
-        var right: TreeNode? = null
-    }
+class Problem0700 {
 
     fun searchBST(root: TreeNode?, `val`: Int): TreeNode? {
         if(root == null) {

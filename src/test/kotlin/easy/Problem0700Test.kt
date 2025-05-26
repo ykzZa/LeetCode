@@ -1,23 +1,24 @@
 package easy
 
+import helper.TreeNode
 import org.testng.Assert.assertEquals
 import org.testng.Assert.assertNull
 import org.testng.annotations.Test
 
 class Problem0700Test {
 
-    private fun buildTree(): Problem0700.TreeNode {
-        val root = Problem0700.TreeNode(4)
-        root.left = Problem0700.TreeNode(2)
-        root.right = Problem0700.TreeNode(7)
-        root.left?.left = Problem0700.TreeNode(1)
-        root.left?.right = Problem0700.TreeNode(3)
+    private fun buildTree(): TreeNode {
+        val root = TreeNode(4)
+        root.left = TreeNode(2)
+        root.right = TreeNode(7)
+        root.left?.left = TreeNode(1)
+        root.left?.right = TreeNode(3)
         return root
     }
 
-    private fun treeToList(root: Problem0700.TreeNode?): List<Int> {
+    private fun treeToList(root: TreeNode?): List<Int> {
         val result = mutableListOf<Int>()
-        fun inorder(node: Problem0700.TreeNode?) {
+        fun inorder(node: TreeNode?) {
             if (node == null) return
             inorder(node.left)
             result.add(node.`val`)

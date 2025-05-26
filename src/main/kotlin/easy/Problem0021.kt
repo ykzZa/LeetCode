@@ -1,10 +1,8 @@
 package easy
 
-class Problem0021 {
+import helper.ListNode
 
-    class ListNode(var `val`: Int) {
-        var next: ListNode? = null
-    }
+class Problem0021 {
 
     fun mergeTwoLists(list1: ListNode?, list2: ListNode?): ListNode? {
         return if (list1 == null || list2 == null) {
