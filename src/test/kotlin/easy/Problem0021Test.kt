@@ -1,6 +1,7 @@
 package easy
 
 import helper.ListNode
+import helper.listNodeToArray
 import org.testng.annotations.Test
 import kotlin.test.assertContentEquals
 
@@ -64,15 +65,5 @@ class Problem0021Test {
 
         val result = problem.mergeTwoLists(list1, list2)
         assertContentEquals(listNodeToArray(output), listNodeToArray(result))
-    }
-
-    private fun listNodeToArray(node: ListNode?): IntArray {
-        val result = mutableListOf<Int>()
-        var current = node
-        while (current != null) {
-            result.add(current.`val`)
-            current = current.next
-        }
-        return result.toIntArray()
     }
 }
