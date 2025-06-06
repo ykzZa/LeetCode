@@ -1,0 +1,7 @@
+SELECT id
+FROM
+(SELECT *,
+        LAG(temperature) OVER (ORDER BY recordDate) AS prev_temperature,
+        LAG(recordDate) OVER (ORDER BY recordDate) as prev_recordDate
+FROM weather) AS combined_data
+WHERE temperature > prev_temperature AND DATEDIFF(recordDate, prev_recordDate) = 1
